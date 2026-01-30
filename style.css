@@ -21,5 +21,12 @@ body{
 
 h1{
     font-size: 40px;
-    font-style: bold;
+    font-family: monospace;
+}
+
+label{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-right: 20px;
 }
