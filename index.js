@@ -9,6 +9,7 @@ function convert(inputValue) {
 	result.textContent = `Your weight in kg is : ${weightKg.toFixed(2)}`;
 }
 
+//evenement permettant le declenchement de calcul de poids en fonction de input
 weightLbs.addEventListener("change", () => {
 	convert(weightLbs);
 });
