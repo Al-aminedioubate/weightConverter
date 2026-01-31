@@ -5,6 +5,8 @@ body{
     height: 500px;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to left top, yellow, lightblue, yellow);
+    color: darkcyan;
 }
 
 /*container style section*/
@@ -19,7 +21,7 @@ body{
     border-radius: 20px;
     padding-left: 20px;
     color: rgb(4, 156, 105);
-    background-color: rgb(181, 236, 218);
+    background: rgb(255, 255, 225, 0.3);
 }
 
 /*title style section*/
@@ -38,11 +40,14 @@ label{
 
 /*input style section*/
 input{
-    font-size: 25px;
+    
+    font-size: 20px;
     height: 40px;
     border-radius: 6px;
-    background-color:  rgb(181, 236, 218);
-    border-color:  rgb(181, 236, 218);
+    background:  rgb(225, 225, 225, 0.3);
+    border-color:  rgb(225, 225, 225, 0.5);
+    color: rgb(4, 156, 105);
+    outline: none;
 }
 
 /*p style section*/
