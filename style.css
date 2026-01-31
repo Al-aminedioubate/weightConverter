@@ -44,3 +44,10 @@ input{
     background-color:  rgb(181, 236, 218);
     border-color:  rgb(181, 236, 218);
 }
+
+/*p style section*/
+p{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
