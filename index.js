@@ -4,7 +4,7 @@ let result = document.getElementById("showWeight");
 
 //la fonction permettant de faire la conversion de lbs en kg
 function convert(inputValue) {
-	if (inputValue.value <= 0) {
+	if (inputValue.value <= 0 || isNaN(inputValue.value)) {
 		alert("Veuillez entrer une valeur valable SVP!");
 		return;
 	}
